@@ -1,0 +1,14 @@
+[
+  {
+    "modinfoversion": 2,
+    "modid": "oc_rtm",
+    "name": "OCRTM Connector",
+    "description": "the mod to control RTM signal from OpenComputers",
+    "mcversion": "1.12.2",
+    "authorList": ["anatawa12"],
+    "credits": "This software is released under Apache License 2.0. This software is using Kotlin, a programming language and library made by Jetbrains and contributors released under Apache License 2.0.",
+    "requiredMods": ["opencomputers", "rtm"],
+    "dependencies": ["opencomputers", "rtm"],
+    "useDependencyInformation": true
+  }
+]
