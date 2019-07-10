@@ -9,6 +9,7 @@
     "credits": "This software is released under Apache License 2.0. This software is using Kotlin, a programming language and library made by Jetbrains and contributors released under Apache License 2.0.",
     "requiredMods": ["opencomputers", "rtm"],
     "dependencies": ["opencomputers", "rtm"],
+    "logoFile": "icon.png",
     "useDependencyInformation": true
   }
 ]
