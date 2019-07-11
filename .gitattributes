@@ -1,0 +1,10 @@
+*           text=auto
+*.dat       text eol=crlf
+*.sh        text eol=lf
+
+# images
+*.png       -text
+*.afphoto   -text
+
+#sources
+*.kt        text eol=lf
