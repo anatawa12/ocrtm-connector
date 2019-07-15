@@ -4,9 +4,27 @@ the mod to control [RTM](https://www.curseforge.com/minecraft/mc-mods/realtrainm
 
 ## How to use
 
+This mod adds a block which is a component into the Redstone tab.
 1. Contact Signal OC Connector and Computer. 
 1. push I/O insulator into Signal OC Connector.
 1. you can get or control output signal!
+
+## API Reference
+
+Component name: `rtm_signal`
+Functions:
+`getSignals(): signal[]` returns all signals which are caught by this block.
+`getMinSignal(): number | nil` returns the minimum signal value of signals which are caught by this block. If this block doesn't catch any signals, this returns `nil`.
+`getMaxSignl(): number | nil` returns the maximal signal value of signals which are caught by this block. If this block doesn't catch any signals, this returns `nil`.
+`setSignal(sig: number)`sets the signal value to output. 
+Type:
+```
+signal {
+    signal: number, //value of signal
+    facing: number, //side of insulator see https://ocdoc.cil.li/api:sides
+    pos: {x: number, y: number, z: number} //position of the insulator 
+}
+```
 
 ## Restrictions
 
