@@ -11,12 +11,12 @@ This mod adds a block which is a component into the Redstone tab.
 
 ## API Reference
 
-Component name: `rtm_signal`
-Functions:
-`getSignals(): signal[]` returns all signals which are caught by this block.
-`getMinSignal(): number | nil` returns the minimum signal value of signals which are caught by this block. If this block doesn't catch any signals, this returns `nil`.
-`getMaxSignl(): number | nil` returns the maximal signal value of signals which are caught by this block. If this block doesn't catch any signals, this returns `nil`.
-`setSignal(sig: number)`sets the signal value to output. 
+Component name: `rtm_signal` <br>
+Functions:<br>
+`getSignals(): signal[]` returns all signals which are caught by this block.<br>
+`getMinSignal(): number | nil` returns the minimum signal value of signals which are caught by this block. If this block doesn't catch any signals, this returns `nil`.<br>
+`getMaxSignl(): number | nil` returns the maximal signal value of signals which are caught by this block. If this block doesn't catch any signals, this returns `nil`.<br>
+`setSignal(sig: number)`sets the signal value to output. <br>
 Type:
 ```
 signal {
